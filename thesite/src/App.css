@@ -1,0 +1,93 @@
+body{
+	background-color: #DBE9EE;
+}
+
+header{
+	box-shadow: none;
+}
+
+#logo{
+	margin: 5px 0px 0px 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.projects-grid{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.mdl-card__title{
+	display: block;
+}
+
+#Card{
+	margin: 10px;
+}
+
+@media (max-width: 839px){
+	#Card{
+		margin: 10px auto;
+	}
+}
+
+#Card:hover{
+	transition: 300ms;
+	box-shadow: 0px 2px 10px #F17300;
+}
+
+@media (max-width: 839px) and (min-width: 480px){
+	#Cell.mdl-cell--6-col, #Cell.mdl-cell--6-col-tablet.mdl-cell--6-col-tablet{
+		width:100%;
+	}
+	#Cell.mdl-cell--12-col, #Cell.mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {
+		width:100%;
+	}
+}
+
+ #Card{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	background-color: inherit;
+
+}
+
+#imgdiv{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+@media (max-width: 839px) and (min-width: 480px){
+	#imgdiv{
+		margin:auto;
+	}
+}
+
+#projimg{
+	align-self: center;
+	display: block;
+	width:100%;
+}
+
+#project_div{
+	margin:50px 0;
+}
+
+.content p{
+	margin: 0px 10%;
+	padding: 100px 0;
+	vertical-align: middle;
+}
+
+@media (max-width: 839px){
+	.content p{
+		margin:-50px 5%;
+		padding: 0px;
+	}
+}
