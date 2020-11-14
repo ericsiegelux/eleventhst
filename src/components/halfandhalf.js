@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Grid, Cell} from 'react-mdl';
 import { Link } from 'react-router-dom';
 
 import {HAH_obj} from '../imageURL';
@@ -21,7 +21,7 @@ class HalfAndHalf extends Component {
 				<Cell col={6} id="imgdiv">
 					
 						<div id="project_div">
-								<img id="projimg" src={HAH_obj[0]["url"]} style={{width: '90%'}}></img>
+								<img id="projimg" src={HAH_obj[0]["url"]} style={{width: '90%'}} alt="pic1"></img>
 						</div>
 				</Cell>
 
@@ -43,7 +43,7 @@ class HalfAndHalf extends Component {
 
 				<Cell col={6} id="imgdiv">
 						<div id="project_div">
-								<img id="projimg" src={HAH_obj[1]["url"]}></img>
+								<img id="projimg" src={HAH_obj[1]["url"]} alt="pic1"></img>
 						</div>
 				</Cell>
 
@@ -66,7 +66,7 @@ class HalfAndHalf extends Component {
 
 				<Cell col={6} id="imgdiv">
 						<div id="project_div">
-								<img id="projimg" src={HAH_obj[2]["url"]}></img>
+								<img id="projimg" src={HAH_obj[2]["url"]} alt="pic1"></img>
 						</div>
 				</Cell>
 
