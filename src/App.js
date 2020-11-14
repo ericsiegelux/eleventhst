@@ -1,13 +1,7 @@
 import React from 'react';
 import './App.css';
-import LandingPage from './components/landingpage';
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-
-
-
-
 
 class App extends React.Component{
   render() {

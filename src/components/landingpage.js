@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
-import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle} from 'react-mdl';
 import { Link } from 'react-router-dom';
-import { About } from './about';
-import { HalfAndHalf } from './halfandhalf';
 
 import {projects} from '../imageURL';
 
 
 class LandingPage extends Component {
-	constructor(props) {
-	  super(props);
 	
-	  
-	}
 	render() {
 		console.log(projects[0]["cover_url"])
 		return(
