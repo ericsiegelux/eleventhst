@@ -1,7 +1,7 @@
 const projects = [
 	{
 		name:"Liam Pt. 1", 
-		cover_url:"url(https://scontent-lax3-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/68661833_432541537350487_2293181144878377235_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=107&_nc_ohc=wEz3ihE-vsYAX-A1UBr&_nc_tp=24&oh=8af93a1de61233569783b58ed72e6419&oe=5FAF6036) center / cover"
+		cover_url:"url(https://i.ibb.co/f8rsTzF/DSC-0765.jpg) center / cover"
 	},
 
 	{
@@ -21,7 +21,7 @@ const projects = [
 const HAH_obj= [
 	{
 		
-		url:"https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/64998679_444779266356249_7244062741929724487_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=luo-00GqPoIAX9ASNCJ&_nc_tp=15&oh=cf29774b7b4473d3469ca0a339633bc1&oe=5FAF26BF"
+		url:"https://ibb.co/yhgrxcP"
 	},
 
 	{
