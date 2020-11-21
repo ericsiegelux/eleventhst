@@ -69,7 +69,7 @@ a{
 
 @media (max-width: 839px) and (min-width: 480px){
 	#imgdiv{
-		margin:auto;
+		margin: -50px auto auto auto;
 	}
 }
 
@@ -84,8 +84,19 @@ a{
 }
 
 .project{
+	margin-top:-50px;
 	padding:50px;
 }
+
+@media (max-width: 839px) {
+	.project{
+		margin-top:0px;
+		padding:0px;
+	}
+}
+
+
+
 
 .content p{
 	margin: 0px 10%;
