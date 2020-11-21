@@ -6,6 +6,7 @@ import About from './about';
 import Projects from './projects';
 import Content from './content';
 import HalfAndHalf from './halfandhalf';
+import LimeLight from './limelight';
 
 const Main = () => (
   <Switch>
@@ -14,6 +15,7 @@ const Main = () => (
     <Route path="/projects" component={Projects} />
     <Route path="/contents" component={Content} />
     <Route path="/halfandhalf" component={HalfAndHalf} />
+    <Route path="/limelight" component={LimeLight} />
 
   </Switch>
 )
